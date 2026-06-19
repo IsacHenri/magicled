@@ -1,0 +1,694 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Quadros e letreiros personalizados com LED. Acrílico premium, resina de alto brilho e Neon LED. Peças exclusivas como Ayrton Senna, Batman, Lendas do Basquete e muito mais."
+    >
+
+    <meta name="theme-color" content="#050816">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Magic Led | Quadros Personalizados com LED">
+    <meta property="og:description" content="Quadros e letreiros personalizados com LED. Acrílico premium, resina de alto brilho e Neon LED.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <title>
+        Magic Led | Quadros Personalizados com LED
+    </title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="loading">
+
+    <!-- LOADING -->
+    <div class="loader" id="loader">
+
+        <div class="loader-content">
+
+            <h1 class="loader-logo">
+                MAGIC LED
+            </h1>
+
+            <div class="loader-bar">
+
+                <div class="loader-fill" id="loaderFill"></div>
+
+            </div>
+
+            <span class="loader-percent" id="loaderPercent">
+                0%
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" id="navbar">
+
+        <div class="logo">
+            MAGIC LED
+        </div>
+
+        <nav class="nav-links">
+
+            <a href="index.html">Inicial</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="#catalogo">Produtos</a>
+            <a href="index.html#contato">Contato</a>
+
+        </nav>
+
+        <button class="nav-toggle" id="navToggle">
+            ☰
+        </button>
+
+    </header>
+    <!-- CATÁLOGO -->
+    <section class="products" id="catalogo">
+
+        <div class="section-title">
+
+            <span>✨ CATÁLOGO MAGIC LED</span>
+
+            <h2>
+                Escolha seu estilo
+            </h2>
+
+            <p>
+                Quadros e letreiros personalizados em LED
+                desenvolvidos para transformar qualquer ambiente.
+            </p>
+
+        </div>
+
+        <!-- ARTE EM ACRÍLICO -->
+        <div class="section-title" style="margin-top: 80px;">
+
+            <span>🚀 ARTE EM ACRÍLICO</span>
+
+            <h2>
+                Acrílico LED Premium
+            </h2>
+
+        </div>
+        
+
+        <div class="products-grid">
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/astronauta-acrilico.PNG" alt="Astronauta Acrílico LED" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Astronauta Acrílico LED
+                    </h3>
+
+                    <p>
+                        Peça em acrílico com iluminação LED premium
+                        e arte futurista para decoração sofisticada.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Astronauta Acrílico LED')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/capivara-acrilico.PNG" alt="Capivara Acrílico LED" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Capivara Acrílico LED
+                    </h3>
+
+                    <p>
+                        Peça decorativa em acrílico com LED integrado,
+                        ideal para ambientes criativos e aconchegantes.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Capivara Acrílico LED')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/quadro-acrilico-perso.PNG" alt="Quadro Acrílico Personalizado" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Quadro Acrílico Personalizado
+                    </h3>
+
+                    <p>
+                        Produzido com sua imagem, frase ou arte favorita
+                        em acabamento acrílico premium.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Quadro Acrílico Personalizado')"
+                    >
+                        Personalizar Agora
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- QUADROS EM RESINA -->
+        <div class="section-title" style="margin-top: 100px;">
+
+            <span>🔥 QUADROS EM RESINA</span>
+
+            <h2>
+                LED Neon Collection
+            </h2>
+
+        </div>
+
+        <div class="products-grid">
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/stitch-led.jpg" alt="Stitch LED Neon" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Stitch LED Neon
+                    </h3>
+
+                    <p>
+                        Decoração divertida e moderna
+                        com iluminação vibrante.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Stitch LED Neon')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/Mario-LED.jpeg" alt="Mario LED Gamer" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Mario LED Gamer
+                    </h3>
+
+                    <p>
+                        O toque perfeito para setups gamers
+                        e quartos geeks.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Mario LED Gamer')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/mulher-futuro.jpeg" alt="Mulher do Futuro LED" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Mulher do Futuro LED
+                    </h3>
+
+                    <p>
+                        Arte futurista com visual elegante
+                        e iluminação impactante.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Mulher do Futuro LED')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/monkeys-led.jpg" alt="Gorila LED Neon" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Gorila LED Neon
+                    </h3>
+
+                    <p>
+                        Estilo forte e moderno para ambientes
+                        cheios de personalidade.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Gorila LED Neon')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/Jesus-LED.PNG" alt="Jesus LED Decorativo" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Jesus LED Decorativo
+                    </h3>
+
+                    <p>
+                        Fé, luz e sofisticação
+                        em uma peça única.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Jesus LED Decorativo')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="assets/img/Naruto-LED.jpeg" alt="Naruto LED Anime" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Naruto LED Anime
+                    </h3>
+
+                    <p>
+                        Energia ninja e decoração otaku
+                        em destaque.
+                    </p>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Naruto LED Anime')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- EDIÇÃO EXCLUSIVA -->
+        <div class="section-title" style="margin-top: 100px;">
+
+            <span>💎 EDIÇÃO EXCLUSIVA</span>
+
+            <h2>
+                Obras Resinadas Premium
+            </h2>
+
+            <p>
+                Peças exclusivas com acabamento resinado de alto brilho
+                e iluminação LED para quem busca exclusividade.
+            </p>
+
+        </div>
+
+        <div class="products-grid">
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <span class="badge-new">NOVO</span>
+
+                <div class="product-image">
+                    <img src="assets/img/ayrton-senna-resina-led.png" alt="Quadro Ayrton Senna Neon LED Resinado" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Ayrton Senna Neon LED Resinado
+                    </h3>
+
+                    <p>
+                        Peça exclusiva que une arte, resina de alto brilho
+                        e iluminação Neon LED, inspirada no legado de
+                        Ayrton Senna. Visual moderno e acabamento premium
+                        para quem ama velocidade e automobilismo.
+                    </p>
+
+                    <ul class="product-features">
+                        <li>🏁 Acabamento resinado</li>
+                        <li>💡 Efeito Neon LED</li>
+                        <li>✨ Alto brilho e riqueza de detalhes</li>
+                        <li>🏆 Homenagem a uma lenda das pistas</li>
+                    </ul>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Quadro Ayrton Senna Neon LED Resinado')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <span class="badge-new">NOVO</span>
+
+                <div class="product-image">
+                    <img src="assets/img/batman-resina-led.jpeg" alt="Quadro Batman Resinado com LED" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Batman Resinado com LED
+                    </h3>
+
+                    <p>
+                        Inspirado no herói mais icônico de Gotham, combina
+                        arte, iluminação LED e acabamento resinado de alto
+                        brilho. Visual imponente para transformar qualquer
+                        ambiente com estilo.
+                    </p>
+
+                    <ul class="product-features">
+                        <li>🦇 Acabamento resinado premium</li>
+                        <li>💡 Iluminação LED integrada</li>
+                        <li>✨ Alto brilho e efeito sofisticado</li>
+                        <li>🌙 Ideal para fãs da cultura geek</li>
+                    </ul>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Quadro Batman Resinado com LED')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <span class="badge-new">NOVO</span>
+
+                <div class="product-image">
+                    <img src="assets/img/lendas-basquete-resina-led.png" alt="Quadro Lendas do Basquete Resinado" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Lendas do Basquete Resinado
+                    </h3>
+
+                    <p>
+                        Homenagem a três dos maiores nomes da história do
+                        basquete: Kobe Bryant, Michael Jordan e LeBron James.
+                        Acabamento em resina de alto brilho simbolizando
+                        talento e legado.
+                    </p>
+
+                    <ul class="product-features">
+                        <li>🏀 Arte exclusiva com três ícones do basquete</li>
+                        <li>✨ Acabamento resinado de alto brilho</li>
+                        <li>🏆 Ideal para fãs e colecionadores</li>
+                        <li>🎯 Decoração moderna e cheia de personalidade</li>
+                    </ul>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Quadro Lendas do Basquete Resinado')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="product-card">
+
+                <span class="badge-new">NOVO</span>
+
+                <div class="product-image">
+                    <img src="assets/img/jesus-cristo-resina-led.jpeg" alt="Quadro Jesus Cristo com LED e Resina" loading="lazy">
+                </div>
+
+                <div class="product-info">
+
+                    <h3>
+                        Jesus Cristo com LED e Resina
+                    </h3>
+
+                    <p>
+                        Peça que transmite fé, paz e inspiração. A imagem
+                        de Jesus envolta por iluminação LED suave e
+                        acabamento resinado de alto brilho cria um ambiente
+                        acolhedor e cheio de significado.
+                    </p>
+
+                    <ul class="product-features">
+                        <li>✨ Acabamento resinado premium</li>
+                        <li>💡 Iluminação LED integrada</li>
+                        <li>🙏 Símbolo de fé, proteção e esperança</li>
+                        <li>🏡 Ideal para salas, quartos e oração</li>
+                    </ul>
+
+                    <button
+                        class="product-btn"
+                        onclick="sendWhatsapp('Tenho interesse no Quadro Jesus Cristo com LED e Resina')"
+                    >
+                        Comprar via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- TAMANHOS E VALORES -->
+        <div class="sizes-wrapper">
+
+            <div class="section-title sizes-title">
+
+                <span>📏 TAMANHOS DISPONÍVEIS</span>
+
+                <h2>
+                    Escolha o tamanho ideal
+                </h2>
+
+                <p>
+                    Produzimos quadros personalizados em 3 tamanhos diferentes.
+                </p>
+
+            </div>
+
+            <div class="sizes-grid">
+
+                <!-- PEQUENO -->
+                <div class="size-card">
+
+                    <span class="size-name">
+                        Pequeno
+                    </span>
+
+                    <h3>
+                        50x35 cm
+                    </h3>
+
+                    <div class="size-price">
+                        R$ 199
+                    </div>
+
+                </div>
+
+                <!-- MÉDIO -->
+                <div class="size-card featured">
+
+                    <span class="popular-tag">
+                        MAIS PEDIDO
+                    </span>
+
+                    <span class="size-name">
+                        Médio
+                    </span>
+
+                    <h3>
+                        75x50 cm
+                    </h3>
+
+                    <div class="size-price">
+                        R$ 399
+                    </div>
+
+                </div>
+
+                <!-- GRANDE -->
+                <div class="size-card">
+
+                    <span class="size-name">
+                        Grande
+                    </span>
+
+                    <h3>
+                        100x65 cm
+                    </h3>
+
+                    <div class="size-price">
+                        R$ 699
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Magic Led - Todos os direitos reservados
+        </p>
+
+        <a
+            href="https://jaguarsoft.com.br"
+            target="_blank"
+        >
+            Desenvolvido por JaguarSoft
+        </a>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
